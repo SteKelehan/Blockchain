@@ -1,4 +1,4 @@
-BlockChain - CryptoCurency
+BlockChain - CryptoCurrency
 =============
 
 Overview
