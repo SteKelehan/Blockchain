@@ -59,7 +59,7 @@ class Block{
     caculateHash(){
         // sha 256 as out hash function
         // Creating a has with index, previous hash, timestpamp and the data
-        return SHA256(this.previousHash + this.timestamp + JSON.stringify(this.data) + this.nonce).toString();
+        return SHA256(this.previousHash + this.timestamp + JSON.stringify(this.transactions) + this.nonce).toString();
     }
 
     mineBlock(difficulty){
